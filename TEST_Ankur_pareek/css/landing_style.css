@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+
+.intro{
+    height:100%;
+    width: 100%;
+    margin:auto;
+}
+.inner{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    background-color:beige;
+}
+.outline{
+    width:450px;
+    height:450px;
+    margin:0;
+    padding: 0;
+}
+.logoFill{
+    width:450px;
+    height:450px; 
+    margin:0;
+    padding: 0;
+}
+/*--.content{
+    margin:0 auto;
+    text-align: bottom;
+}-*/
+h1{
+    font-size: 230%;
+    font-weight: 100;
+    color: #828182;
+    margin-top:0;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+a{
+    font-size: 105%;
+    color:#686868;
+    font-weight: 100;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid 2px #686868;
+    padding:5px 15px;
+    border-radius: 9px;
+    transition: all 0.3s;
+    margin-top:10%;
+    transition: background-color .6s ease-out;
+    transition: color .6s ease-out;
+    
+}
+a:hover{
+    color:beige;
+    background-color:#A5C487;
+}
+
+
+.logo{
+    text-align: center;  
+    width:100%;
+    padding: 109px 0;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    /*background-color:beige;*/
+    
+}
+
+.logoTop{
+    width:100%;
+    position: relative;
+    text-align: center;  
+    padding-top: 109px ;
+    text-align: center;
+    margin: auto 0;
+    opacity:0;
+}
+/*#logoArrow{
+    width:100%;
+    margin:auto;
+    position: absolute;
+    text-align: left;  
+    background-color: aquamarine;
+  
+}
+
+/*.arrow{
+    width:110px;
+    position: absolute;
+    margin-top: 164px;
+}*/
+/*--- Media Queries 
+@media screen and (max-width: 1445px) {
+    .content{
+        padding-bottom: 30%;
+    }
+    .content h1{
+        font-size:450%;
+    }
+    .btn{
+        font-size: 110%;
+        padding: 4px 10px;
+    }
+
+   .outline{
+        width:350px;
+        height:350px;
+   }
+   .logoFill{
+    width:350px;
+    height:350px 
+   }
+    
+    #logoArrow{
+        width: 80%;
+        translate: 200;
+    }
+    .arrow{
+        width:80px;
+    }
+}--*/
+@media screen and (max-width: 1024px) {
+   
+    h1{
+        font-size:230%;
+    }
+    a{
+        font-size: 100%;
+    }
+
+   .outline{
+        width:30%;
+        height:30%;
+   }
+   .logoFill{
+        width:30%;
+        height:30% 
+   }
+}
+@media screen and (max-width: 830px) {
+   
+    h1{
+        font-size:230%;
+    }
+    a{
+        font-size: 70%;
+    }
+
+   .outline{
+        width:15%;
+        height:15%;
+   }
+   .logoFill{
+    width:15%;
+    height:15%; 
+    text-align:auto;
+   }
+}
+@media screen and (max-width: 768px) {
+    h1{
+          font-size:230%;
+      }
+      a{
+          font-size: 100%;
+      }
+  
+     .outline{
+          width:15%;
+          height:15%;
+     }
+     .logoFill{
+      width:15%;
+      height:15% 
+     }
+}
+@media screen and (max-width: 568px) {
+        h1{
+              font-size:220%;
+          }
+          a{
+              font-size: 80%;
+          }
+      
+         .outline{
+              width:15%;
+              height:15%;
+         }
+         .logoFill{
+          width:15%;
+          height:15% 
+         }
+}
+@media screen and (max-width: 414px) {
+    h1{
+          font-size:220%;
+      }
+      a{
+          font-size: 80%;
+      }
+  
+     .outline{
+          width:30%;
+          height:30%;
+     }
+     .logoFill{
+      width:30%;
+      height:30% 
+     }
+}
+@media screen and (max-width: 375px) {
+    h1{
+          font-size:230%;
+      }
+      a{
+          font-size: 100%;
+      }
+  
+     .outline{
+          width:50%;
+          height:50%;
+     }
+     .logoFill{
+      width:50%;
+      height:50% 
+     }
+}
+@media screen and (max-width: 360px) {
+    h1{
+          font-size:230%;
+      }
+      a{
+          font-size: 110%;
+      }
+  
+     .outline{
+          width:50%;
+          height:50%;
+     }
+     .logoFill{
+      width:50%;
+      height:50% 
+     }
+}
+@media screen and (max-width: 320px) {
+  h1{
+        font-size:230%;
+    }
+    a{
+        font-size: 100%;
+    }
+
+   .outline{
+        width:50%;
+        height:50%;
+   }
+   .logoFill{
+    width:50%;
+    height:50% 
+   }
+}
