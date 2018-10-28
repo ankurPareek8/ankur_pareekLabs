@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 
 /* SCSS  */
 $colors: (
@@ -206,8 +206,6 @@ a{
 
 /* Landing page styles starts */
 
-@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 
 html,body{
     margin:0;
@@ -251,7 +249,7 @@ h1{
     font-family: 'Yantramanav', sans-serif;
 }
 
-a{
+.welcome_btn{
     font-size: 105%;
     color:#686868;
     font-weight: 100;
@@ -267,7 +265,7 @@ a{
     transition: color .6s ease-out;
     
 }
-a:hover{
+.welcome_btn:hover{
     color:beige;
     background-color:#A5C487;
 }
@@ -476,4 +474,6 @@ a:hover{
     height:50% 
    }
 }
+
+
 
